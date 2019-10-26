@@ -23,21 +23,21 @@ class ViewController: UIViewController {
         let randomNumber = Int.random(in: 1...8)
         
         switch randomNumber {
-        case 1: mainLabel.text = "A show’s first episode is called a pilot because it’s what puts the show on the air"
+        case 1: mainLabel.text = "Please try again"
             
-        case 2: mainLabel.text = "A lethal dose is also a lifetime supply"
+        case 2: mainLabel.text = "This will surely come true"
             
-        case 3: mainLabel.text = "I've ran out of ideas"
+        case 3: mainLabel.text = "Outcome definitly not looking good"
             
-        case 4: mainLabel.text = "When a pregnent women swims, she's like a human submarine"
+        case 4: mainLabel.text = "The future isn't looking promising"
             
-        case 5: mainLabel.text = "In a room filled with only you and a bunch of mirrors, what would you see?"
+        case 5: mainLabel.text = "Not sure"
             
-        case 6: mainLabel.text = "Blicking is like clapping for your eyes"
+        case 6: mainLabel.text = "Mmmm maybe"
             
-        case 7: mainLabel.text = "People that study atoms are just a bunch of atoms trying to understand themselves"
+        case 7: mainLabel.text = "Yea, I guess"
             
-        case 8: mainLabel.text = "Patrick is clueless because he lives under a rock"
+        case 8: mainLabel.text = "Mhh hmm"
             
         default: mainLabel.text = ""
         }
