@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     // Show message to user
     @IBAction func Shake(_ sender: Any) {
         
-        let randomNumber = Int.random(in: 1...8)
+        let randomNumber = Int.random(in: 1...20)
         
         switch randomNumber {
         case 1: mainLabel.text = "Please try again"
@@ -38,6 +38,30 @@ class ViewController: UIViewController {
         case 7: mainLabel.text = "Yea, I guess"
             
         case 8: mainLabel.text = "Mhh hmm"
+            
+        case 9: mainLabel.text = "It is possible"
+            
+        case 10: mainLabel.text = "It's unlikely"
+            
+        case 11: mainLabel.text = "Meh, probably not"
+
+        case 12: mainLabel.text = "No chance"
+
+        case 13: mainLabel.text = "Yikes... I'm sorry"
+            
+        case 14: mainLabel.text = "I don't want to be the bearer of bad news, but..."
+            
+        case 15: mainLabel.text = "Mhh hmm"
+
+        case 16: mainLabel.text = "Ask again later"
+            
+        case 17: mainLabel.text = "Don't count on it"
+            
+        case 18: mainLabel.text = "I guess"
+            
+        case 19: mainLabel.text = "Hard no"
+            
+        case 20: mainLabel.text = "Hard yes"
             
         default: mainLabel.text = ""
         }
