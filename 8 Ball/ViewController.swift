@@ -27,7 +27,7 @@ class ViewController: UIViewController {
             
         case 2: mainLabel.text = "A lethal dose is also a lifetime supply"
             
-        case 3: mainLabel.text = "We're all half sentars"
+        case 3: mainLabel.text = "I've ran out of ideas"
             
         case 4: mainLabel.text = "When a pregnent women swims, she's like a human submarine"
             
